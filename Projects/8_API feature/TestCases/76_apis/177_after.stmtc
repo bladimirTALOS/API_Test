@@ -11,9 +11,9 @@
     "Scenario": null,
     "TestSteps": [
       {
-        "TempId": 1307,
+        "TempId": 1311,
         "StepNumber": 1,
-        "ActionId": 79,
+        "ActionId": 80,
         "ComponentId": null,
         "CustomActionId": null,
         "StepSectionId": 2,
@@ -25,7 +25,7 @@
         "Locator": null,
         "Value": "1/",
         "Status": "Pending",
-        "UserSays": "",
+        "UserSays": "13",
         "BotSays": "",
         "Parameters": [],
         "Name": null,
