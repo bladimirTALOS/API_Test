@@ -1,0 +1,67 @@
+[
+  {
+    "TempId": 178,
+    "AUT": "",
+    "Description": "",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 4,
+    "uri": "1",
+    "DataSheet": null,
+    "Scenario": {
+      "TempId": 25,
+      "Scenario_Number": 1,
+      "TC_Id": 178,
+      "GherkinFile_Id": 25,
+      "Name": null,
+      "Created": null,
+      "Modified": null
+    },
+    "TestSteps": [
+      {
+        "TempId": 1314,
+        "StepNumber": 1,
+        "ActionId": 27,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": "Given Navigate \"g\"",
+        "Locator": null,
+        "Value": "g",
+        "Status": "Pending",
+        "UserSays": null,
+        "BotSays": null,
+        "Parameters": [],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      }
+    ],
+    "Name": "Scenario_g",
+    "Created": null,
+    "Modified": null
+  },
+  {
+    "TempId": 25,
+    "Name": "Feature: apis",
+    "Code": "Feature: apis\n\n   Scenario:g\n      Given Navigate \"g\"\n",
+    "FolderId": 76,
+    "BGComponentId": null,
+    "OriginalScript": "Feature: apis\n\n   Scenario:g\n      Given ....\n",
+    "Created": null,
+    "Modified": null
+  },
+  {
+    "TempId": 25,
+    "Scenario_Number": 1,
+    "TC_Id": 178,
+    "GherkinFile_Id": 25,
+    "Name": null,
+    "Created": null,
+    "Modified": null
+  }
+]
