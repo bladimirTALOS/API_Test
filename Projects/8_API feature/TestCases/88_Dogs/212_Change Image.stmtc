@@ -1,0 +1,75 @@
+[
+  {
+    "TempId": 212,
+    "AUT": "",
+    "Description": "",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 5,
+    "uri": "dog.ceo/api/breeds/image/random",
+    "DataSheet": null,
+    "Scenario": null,
+    "TestSteps": [
+      {
+        "TempId": 2884,
+        "StepNumber": 1,
+        "ActionId": 79,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": null,
+        "Locator": null,
+        "Value": "dog.ceo/api/breeds/image/random/",
+        "Status": "Pending",
+        "UserSays": "",
+        "BotSays": "{\n   \"status\": \"success\",\n   \"message\": \"https://images.dog.ceo/breeds/mastiff-bull/n02108422_3177.jpg\"\n}",
+        "Parameters": [],
+        "Assertions": [
+          {
+            "TempId": 310,
+            "Step_id": 2884,
+            "AssertionType": 1,
+            "Expected": "200",
+            "Actual": "200",
+            "OutputMessage": "Status code: Passed",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          },
+          {
+            "TempId": 311,
+            "Step_id": 2884,
+            "AssertionType": 4,
+            "Expected": "status : success",
+            "Actual": " success",
+            "OutputMessage": "Expected:  success<br>Passed",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          },
+          {
+            "TempId": 312,
+            "Step_id": 2884,
+            "AssertionType": 3,
+            "Expected": "{\r\n\t\t\"_id\": \"591f9894d369931519ce358f\",\r\n\t\t\"__v\": 0,\r\n\t\t\"text\": \"A female cat will be pregnant for approximately 9 weeks - between 62 and 65 days from conception to delivery.\",\r\n\t\t\"updatedAt\": \"2018-01-04T01:10:54.673Z\",\r\n\t\t\"deleted\": false,\r\n\t\t\"source\": \"api\",\r\n\t\t\"used\": false\r\n\t}",
+            "Actual": "",
+            "OutputMessage": "",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          }
+        ],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      }
+    ],
+    "Name": "Change Image",
+    "Created": null,
+    "Modified": null
+  }
+]
