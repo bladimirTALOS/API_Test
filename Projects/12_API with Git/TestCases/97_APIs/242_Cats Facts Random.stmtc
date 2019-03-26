@@ -11,9 +11,9 @@
     "Scenario": null,
     "TestSteps": [
       {
-        "TempId": 3247,
+        "TempId": 3256,
         "StepNumber": 1,
-        "ActionId": 79,
+        "ActionId": 82,
         "ComponentId": null,
         "CustomActionId": null,
         "StepSectionId": 2,
@@ -23,15 +23,15 @@
         "SkipStep": false,
         "Description": null,
         "Locator": null,
-        "Value": "https://cat-fact.herokuapp.com/facts/random",
+        "Value": "https://cat-fact.herokuapp.com/",
         "Status": "Pending",
-        "UserSays": "facts/random",
-        "BotSays": "{\n   \"_id\": \"591f9890d369931519ce3543\",\n   \"__v\": 0,\n   \"text\": \"The life expectancy of cats has nearly doubled since 1930 - from 8 to 16 years.\",\n   \"updatedAt\": \"2019-03-11T20:21:02.413Z\",\n   \"createdAt\": \"2018-01-04T01:10:54.673Z\",\n   \"deleted\": false,\n   \"type\": \"cat\",\n   \"source\": \"api\",\n   \"used\": false\n}",
+        "UserSays": "",
+        "BotSays": "",
         "Parameters": [],
         "Assertions": [
           {
-            "TempId": 341,
-            "Step_id": 3247,
+            "TempId": 356,
+            "Step_id": 3256,
             "AssertionType": 1,
             "Expected": "200",
             "Actual": "",
@@ -46,7 +46,7 @@
         "Modified": null
       },
       {
-        "TempId": 3248,
+        "TempId": 3257,
         "StepNumber": 2,
         "ActionId": 79,
         "ComponentId": null,
@@ -65,8 +65,8 @@
         "Parameters": [],
         "Assertions": [
           {
-            "TempId": 342,
-            "Step_id": 3248,
+            "TempId": 357,
+            "Step_id": 3257,
             "AssertionType": 4,
             "Expected": "text : In an average year, cat owners in the United States spend over $2 billion on cat food.",
             "Actual": " In an average year, cat owners in the United States spend over $2 billion on cat food.",
@@ -76,8 +76,8 @@
             "Modified": null
           },
           {
-            "TempId": 343,
-            "Step_id": 3248,
+            "TempId": 358,
+            "Step_id": 3257,
             "AssertionType": 1,
             "Expected": "200",
             "Actual": "200",
@@ -92,7 +92,7 @@
         "Modified": null
       },
       {
-        "TempId": 3249,
+        "TempId": 3258,
         "StepNumber": 3,
         "ActionId": 79,
         "ComponentId": null,
@@ -111,8 +111,8 @@
         "Parameters": [],
         "Assertions": [
           {
-            "TempId": 344,
-            "Step_id": 3249,
+            "TempId": 359,
+            "Step_id": 3258,
             "AssertionType": 1,
             "Expected": "200",
             "Actual": "",
@@ -122,8 +122,8 @@
             "Modified": null
           },
           {
-            "TempId": 345,
-            "Step_id": 3249,
+            "TempId": 360,
+            "Step_id": 3258,
             "AssertionType": 3,
             "Expected": "Horses",
             "Actual": "",
