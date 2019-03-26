@@ -1,0 +1,145 @@
+[
+  {
+    "TempId": 242,
+    "AUT": "",
+    "Description": "",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 5,
+    "uri": "https://cat-fact.herokuapp.com",
+    "DataSheet": null,
+    "Scenario": null,
+    "TestSteps": [
+      {
+        "TempId": 3247,
+        "StepNumber": 1,
+        "ActionId": 79,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": false,
+        "Description": null,
+        "Locator": null,
+        "Value": "https://cat-fact.herokuapp.com/facts/random",
+        "Status": "Pending",
+        "UserSays": "facts/random",
+        "BotSays": "{\n   \"_id\": \"591f9890d369931519ce3543\",\n   \"__v\": 0,\n   \"text\": \"The life expectancy of cats has nearly doubled since 1930 - from 8 to 16 years.\",\n   \"updatedAt\": \"2019-03-11T20:21:02.413Z\",\n   \"createdAt\": \"2018-01-04T01:10:54.673Z\",\n   \"deleted\": false,\n   \"type\": \"cat\",\n   \"source\": \"api\",\n   \"used\": false\n}",
+        "Parameters": [],
+        "Assertions": [
+          {
+            "TempId": 341,
+            "Step_id": 3247,
+            "AssertionType": 1,
+            "Expected": "200",
+            "Actual": "",
+            "OutputMessage": "",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          }
+        ],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 3248,
+        "StepNumber": 2,
+        "ActionId": 79,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": true,
+        "Description": null,
+        "Locator": null,
+        "Value": "https://cat-fact.herokuapp.com/facts/591f98803b90f7150a19c229",
+        "Status": "Pending",
+        "UserSays": "facts/591f98803b90f7150a19c229",
+        "BotSays": "{\n   \"_id\": \"591f98803b90f7150a19c229\",\n   \"__v\": 0,\n   \"text\": \"In an average year, cat owners in the United States spend over $2 billion on cat food.\",\n   \"updatedAt\": \"2019-03-11T20:21:02.413Z\",\n   \"createdAt\": \"2018-01-04T01:10:54.673Z\",\n   \"deleted\": false,\n   \"type\": \"cat\",\n   \"source\": \"api\",\n   \"used\": false\n}",
+        "Parameters": [],
+        "Assertions": [
+          {
+            "TempId": 342,
+            "Step_id": 3248,
+            "AssertionType": 4,
+            "Expected": "text : In an average year, cat owners in the United States spend over $2 billion on cat food.",
+            "Actual": " In an average year, cat owners in the United States spend over $2 billion on cat food.",
+            "OutputMessage": "Expected:  In an average year, cat owners in the United States spend over $2 billion on cat food.<br>Passed",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          },
+          {
+            "TempId": 343,
+            "Step_id": 3248,
+            "AssertionType": 1,
+            "Expected": "200",
+            "Actual": "200",
+            "OutputMessage": "Status code: Passed",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          }
+        ],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 3249,
+        "StepNumber": 3,
+        "ActionId": 79,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "LocatorTypeId": null,
+        "Screenshot": false,
+        "SkipStep": true,
+        "Description": null,
+        "Locator": null,
+        "Value": "https://cat-fact.herokuapp.com/facts?animal_type=cat,horse",
+        "Status": "Pending",
+        "UserSays": "facts?animal_type=cat,horse",
+        "BotSays": "<!DOCTYPE html>\n\t<html>\n\t  <head>\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t\t<meta charset=\"utf-8\">\n\t\t<title>Application Error</title>\n\t\t<style media=\"screen\">\n\t\t  html,body,iframe {\n\t\t\tmargin: 0;\n\t\t\tpadding: 0;\n\t\t  }\n\t\t  html,body {\n\t\t\theight: 100%;\n\t\t\toverflow: hidden;\n\t\t  }\n\t\t  iframe {\n\t\t\twidth: 100%;\n\t\t\theight: 100%;\n\t\t\tborder: 0;\n\t\t  }\n\t\t</style>\n\t  </head>\n\t  <body>\n\t\t<iframe src=\"//www.herokucdn.com/error-pages/application-error.html\"></iframe>\n\t  </body>\n\t</html>",
+        "Parameters": [],
+        "Assertions": [
+          {
+            "TempId": 344,
+            "Step_id": 3249,
+            "AssertionType": 1,
+            "Expected": "200",
+            "Actual": "",
+            "OutputMessage": "",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          },
+          {
+            "TempId": 345,
+            "Step_id": 3249,
+            "AssertionType": 3,
+            "Expected": "Horses",
+            "Actual": "",
+            "OutputMessage": "",
+            "Name": null,
+            "Created": null,
+            "Modified": null
+          }
+        ],
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      }
+    ],
+    "Name": "Cats Facts Random",
+    "Created": null,
+    "Modified": null
+  }
+]
